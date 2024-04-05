@@ -15,23 +15,23 @@ describe("Result statistic: 10000 times", () => {
         it(`should generate results statistically correct with mode ${mode}`, () => {
             // Arrange
             let statisticSymbolsResult = {
-                bar: 0,
-                bar25: 0,
-                bar50: 0,
-                tripleSeven: 0,
-                tripleSeven3: 0,
-                watermelon: 0,
-                watermelon3: 0,
-                star: 0,
-                star3: 0,
-                bell: 0,
-                bell3: 0,
-                orange: 0,
-                orange3: 0,
-                lemon: 0,
-                lemon3: 0,
-                cherry: 0,
-                cherry3: 0,
+                cup: 0,
+                cup25: 0,
+                cup50: 0,
+                mascot: 0,
+                mascot3: 0,
+                franceShirt: 0,
+                franceShirt3: 0,
+                hostCountry: 0,
+                hostCountry3: 0,
+                englandShirt: 0,
+                englandShirt3: 0,
+                tickets: 0,
+                tickets3: 0,
+                ball: 0,
+                ball3: 0,
+                shoes: 0,
+                shoes3: 0,
             };
 
             let statisticBigSmallResult = {
@@ -48,56 +48,56 @@ describe("Result statistic: 10000 times", () => {
                 result.symbols.forEach((symbol) => {
                     totalSymbols++;
                     switch (symbol) {
-                        case choiceNames.bar:
-                            statisticSymbolsResult.bar++;
+                        case choiceNames.cup:
+                            statisticSymbolsResult.cup++;
                             break;
-                        case choiceNames.bar25:
-                            statisticSymbolsResult.bar25++;
+                        case choiceNames.cup25:
+                            statisticSymbolsResult.cup25++;
                             break;
-                        case choiceNames.bar50:
-                            statisticSymbolsResult.bar50++;
+                        case choiceNames.cup50:
+                            statisticSymbolsResult.cup50++;
                             break;
-                        case choiceNames.tripleSeven:
-                            statisticSymbolsResult.tripleSeven++;
+                        case choiceNames.mascot:
+                            statisticSymbolsResult.mascot++;
                             break;
-                        case choiceNames.tripleSeven3:
-                            statisticSymbolsResult.tripleSeven3++;
+                        case choiceNames.mascot3:
+                            statisticSymbolsResult.mascot3++;
                             break;
-                        case choiceNames.watermelon:
-                            statisticSymbolsResult.watermelon++;
+                        case choiceNames.franceShirt:
+                            statisticSymbolsResult.franceShirt++;
                             break;
-                        case choiceNames.watermelon3:
-                            statisticSymbolsResult.watermelon3++;
+                        case choiceNames.franceShirt3:
+                            statisticSymbolsResult.franceShirt3++;
                             break;
-                        case choiceNames.star:
-                            statisticSymbolsResult.star++;
+                        case choiceNames.hostCountry:
+                            statisticSymbolsResult.hostCountry++;
                             break;
-                        case choiceNames.star3:
-                            statisticSymbolsResult.star3++;
+                        case choiceNames.hostCountry3:
+                            statisticSymbolsResult.hostCountry3++;
                             break;
-                        case choiceNames.bell:
-                            statisticSymbolsResult.bell++;
+                        case choiceNames.englandShirt:
+                            statisticSymbolsResult.englandShirt++;
                             break;
-                        case choiceNames.bell3:
-                            statisticSymbolsResult.bell3++;
+                        case choiceNames.englandShirt3:
+                            statisticSymbolsResult.englandShirt3++;
                             break;
-                        case choiceNames.orange:
-                            statisticSymbolsResult.orange++;
+                        case choiceNames.tickets:
+                            statisticSymbolsResult.tickets++;
                             break;
-                        case choiceNames.orange3:
-                            statisticSymbolsResult.orange3++;
+                        case choiceNames.tickets3:
+                            statisticSymbolsResult.tickets3++;
                             break;
-                        case choiceNames.lemon:
-                            statisticSymbolsResult.lemon++;
+                        case choiceNames.ball:
+                            statisticSymbolsResult.ball++;
                             break;
-                        case choiceNames.lemon3:
-                            statisticSymbolsResult.lemon3++;
+                        case choiceNames.ball3:
+                            statisticSymbolsResult.ball3++;
                             break;
-                        case choiceNames.cherry:
-                            statisticSymbolsResult.cherry++;
+                        case choiceNames.shoes:
+                            statisticSymbolsResult.shoes++;
                             break;
                         default:
-                            statisticSymbolsResult.cherry3++;
+                            statisticSymbolsResult.shoes3++;
                             break;
                     }
                 });

@@ -29,10 +29,10 @@ export const settleTest = () => {
                 if (inGameData.remainingTime && !receivedRemainingTime) {
                     receivedRemainingTime = true;
                     setTimeout(() => {
-                        client.emit(eventTypes.bet, { betChoice: "bar", amount: 35 });
-                        client.emit(eventTypes.bet, { betChoice: "tripleSeven", amount: 25 });
-                        client.emit(eventTypes.bet, { betChoice: "bar", amount: 15 });
-                        client.emit(eventTypes.bet, { betChoice: "orange", amount: 10 });
+                        client.emit(eventTypes.bet, { betChoice: "cup", amount: 35 });
+                        client.emit(eventTypes.bet, { betChoice: "mascot", amount: 25 });
+                        client.emit(eventTypes.bet, { betChoice: "cup", amount: 15 });
+                        client.emit(eventTypes.bet, { betChoice: "tickets", amount: 10 });
                         client.emit(eventTypes.bet, { betChoice: "small", amount: 30 });
                     }, getTimeOutToBet(inGameData.remainingTime, gameSettings.durations) * 1000);
                 }

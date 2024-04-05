@@ -7,7 +7,7 @@ export default class Bot extends Table.Crons.TableGameBot {
         super(definition, gameData, publisher, userInfosRepository, tempBetsRepository);
 
         this.betChoiceRatio = { Main: 80, BigSmall: 20 };
-        this.mainOpts = ["bar", "tripleSeven", "watermelon", "star", "bell", "orange", "lemon", "cherry"];
+        this.mainOpts = ["cup", "mascot", "franceShirt", "hostCountry", "englandShirt", "tickets", "ball", "shoes"];
         this.bigSmallOpts = ["big", "small"];
     }
 
@@ -18,14 +18,14 @@ export default class Bot extends Table.Crons.TableGameBot {
 
     resetAllBets() {
         this.allBets = {
-            bar: 0,
-            tripleSeven: 0,
-            watermelon: 0,
-            star: 0,
-            bell: 0,
-            orange: 0,
-            lemon: 0,
-            cherry: 0,
+            cup: 0,
+            mascot: 0,
+            franceShirt: 0,
+            hostCountry: 0,
+            englandShirt: 0,
+            tickets: 0,
+            ball: 0,
+            shoes: 0,
             big: 0,
             small: 0,
         };
