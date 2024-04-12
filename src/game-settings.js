@@ -8,12 +8,12 @@ import {
 } from "./constants";
 
 export default {
-    id: 59,
+    id: 79,
     name: "FootballSlot",
     durations: {
         wholeRound: 42,
         placingBets: 30,
-        lockingBet: 5,
+        lockingBet: 3,
     },
     choices: Object.values(choiceNames),
     choicesMapper,
