@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const modelName = "fruitslot_rounds";
+const modelName = "footballslot_rounds";
 
 const resultSchema = new mongoose.Schema(
     {
