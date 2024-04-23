@@ -158,7 +158,7 @@ export const symbolPositionsMapper = {
     franceShirt3: [9],
     hostCountry: [20],
     hostCountry3: [21],
-    englandShirt: [2],
+    englandShirt: [2, 14],
     englandShirt3: [0],
     tickets: [1, 13],
     tickets3: [12],
