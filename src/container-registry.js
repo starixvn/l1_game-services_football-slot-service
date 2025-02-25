@@ -35,7 +35,6 @@ export default class ContainerRegistry extends Table.TableContainerRegistry {
         this.container.register({
             bot: asClass(Bot).singleton(),
             gameCron: asClass(FootballSlotGameCron).singleton().proxy(),
-            processBetQueue: asClass(ProcessBetQueue).singleton().proxy(),
         });
     }
 
