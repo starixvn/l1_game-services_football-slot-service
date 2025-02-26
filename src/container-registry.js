@@ -4,7 +4,6 @@ import { Table, Core } from "sc-game-base";
 import { footballSlotRounds, footballSlotTempBets, footballSlotBets, footballSlotBetLogs } from "./models";
 import { SettleGameRoundConsumer } from "sc-slot-rng-game-base/src/consumers";
 import { Bot, FootballSlotGameCron } from "./crons";
-import { ProcessBetQueue } from "sc-slot-rng-game-base/src/crons";
 import HistoryQuery from "sc-slot-rng-game-base/src/query-apis/history-query";
 import RebetContainerRegistry from "./rebet-container-registry";
 const { asClass, asValue } = awilix;

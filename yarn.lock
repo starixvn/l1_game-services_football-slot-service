@@ -6621,7 +6621,7 @@ sc-common@1.8.1:
     mongoose-long "^0.3.0"
     numeral "^2.0.6"
 
-sc-game-base@3.1.1, sc-game-base@3.2.3, sc-game-base@3.2.5, sc-game-base@4.1.0:
+sc-game-base@3.1.1, sc-game-base@3.2.3, sc-game-base@4.1.0:
   version "4.1.0"
   resolved "http://npm.lumigame.com/sc-game-base/-/sc-game-base-4.1.0.tgz#b1d3d9a29bdb125b84f64a8b9b2a5e51248a85bb"
   integrity sha512-zyJ0liS5Xs/wKTYE/BziUbjQs72t1KTkqh4+UxaQtihA4zCo234oM8GUWMS65EF1EtSBJ4MnoO79wHhEnZvzCw==
@@ -6693,13 +6693,13 @@ sc-rebet-mode@1.0.1:
     chance "^1.1.7"
     sc-game-base "3.1.1"
 
-sc-slot-rng-game-base@1.0.4:
-  version "1.0.4"
-  resolved "http://npm.lumigame.com/sc-slot-rng-game-base/-/sc-slot-rng-game-base-1.0.4.tgz#2737be94163b21474f95334712d63006478ec48d"
-  integrity sha512-yX8oKYx/M8fA1Iy6puHXbFjeFOnFHbavpc/jeoPmtViQPSpgEei/8NFaURO6W6NIZigZ5JOaMZCpxv+VZno1SQ==
+sc-slot-rng-game-base@1.0.5-beta.0:
+  version "1.0.5-beta.0"
+  resolved "http://npm.lumigame.com/sc-slot-rng-game-base/-/sc-slot-rng-game-base-1.0.5-beta.0.tgz#8d32ea3b01bf17711cee3cbeb0b2dd02bfb29cc3"
+  integrity sha512-CIt5IXEX8lEsIV2VynkLUz+bs515iDcg15yFlOygpaiswQkn1Zp7W4DkiOVIihRNeqmS7VSS0v3lsyKrxS6+1Q==
   dependencies:
     chance "^1.1.7"
-    sc-game-base "3.2.5"
+    sc-game-base "4.1.0"
     sc-slot-rng-generator "1.0.4"
 
 sc-slot-rng-generator@1.0.4:
