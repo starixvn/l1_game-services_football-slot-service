@@ -23,7 +23,7 @@
     "type": "module",
     "dependencies": {
         "nodemon": "^2.0.4",
-        "sc-slot-rng-game-base": "1.0.5-beta.0",
+        "sc-slot-rng-game-base": "1.1.0",
         "sc-rebet-mode": "1.0.1",
         "sc-game-base": "4.1.0"
     },
